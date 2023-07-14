@@ -1,0 +1,15 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    width: 20%;
+}
+li{
+    background-color: lightgray;
+    color: black;
+    padding: 0.5rem;
+
+}
+.aktif{
+    color: white;
+    background-color: rgb(56, 51, 51);
+}
