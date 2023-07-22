@@ -1,0 +1,30 @@
+*{text-align: center;
+color: white;
+font-size: 1.5rem;
+margin: 0;}
+header{
+    background-color: pink;
+    height: 20vh;
+}
+nav{
+    background-color: rgb(112, 196, 137);
+    height: 10vh;
+}
+aside{
+    height: 50vh;
+    width: 20%;
+    background-color: rgb(102, 148, 192);
+    float: left;
+}
+main{
+    height: 50vh;
+    background-color: rgb(179, 73, 189);
+    float: right;
+    width: 80%;
+}
+footer{
+    clear: both;
+    height: 20vh;
+    background-color: rgb(204, 207, 26);
+
+}

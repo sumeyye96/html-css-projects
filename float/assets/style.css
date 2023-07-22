@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(168, 57, 76);
+}
+.left,.right{
+
+    width: 80px;
+    height: 80px;
+    margin: 1rem;
+    background-color: beige;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
