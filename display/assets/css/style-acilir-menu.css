@@ -1,0 +1,35 @@
+*{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+
+}
+li{
+    list-style-type: none;
+    color: rgb(126, 33, 33);
+    background-color: rgb(255, 228, 196);
+
+
+}
+.urun~li{
+    display:none;
+}
+.urun~li:hover{
+   background-color: aqua; 
+   color: blue;
+    }
+
+.urun{
+    background-color:rgb(34, 128, 34);
+    color: beige;
+}
+ul:hover .urun~li{
+display: block;
+
+}
+
+
+ul{
+  width: 30%;
+}
+
+

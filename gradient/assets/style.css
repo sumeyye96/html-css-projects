@@ -1,0 +1,50 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.773)),url(./img/banner-web-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.content{
+    padding: 8rem;
+}
+h1{
+font-size: 3rem;
+}
+.slide{
+    padding: 3rem 0;
+
+}
+.slide span{
+    display: inline-block;
+    width: 3rem;
+    height: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+.slide span:nth-child(2){
+    margin: 0 1.5rem;
+}
+.button button{
+background-image: radial-gradient(circle, rgba(4, 227, 235, 0.555),rgba(255, 0, 157, 0.582));  
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1.1rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+    
+}
